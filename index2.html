@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo V</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Georama:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/glide.css">
+</head>
+
+<body class="home light">
+  <div class="site page--front lang--en show-services">
+    <header class="site__header header">
+      <nav class="header__navbar navbar container">
+        <div class="navbar__brand brand">
+          <h1 class="brand__title">
+            <a href="#" class="brand__link">
+              <svg class="brand__logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52.9 52.9">
+                <g fill="none" stroke-linecap="round" stroke-width="7.9">
+                  <path stroke="rgb(var(--clrPrimary))" stroke-linejoin="round" d="M5 38.8L18.5 7.6l15.7 37.7" />
+                  <path stroke="rgb(var(--clrSecondary))" d="M37.4 14.1l10.3 24.8" />
+                </g>
+                <!-- <circle cx="18.4" cy="45.4" r="4.6" fill="red" paint-order="markers fill stroke" /> -->
+              </svg>
+              <span class="brand__name">almax</span>
+            </a>
+          </h1>
+          <ul class="brand__language language">
+            <a href="#" class="language__link">
+              en
+              <svg class="language__arrow" width="16" height="16" viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg">
+                <polyline fill="none" stroke="currentColor" stroke-width="2" points="16 7 10 13 4 7"></polyline>
+              </svg>
+            </a>
+            <div class="language__dropdown">
+              <a href="#" class="language__link">it</a>
+              <a href="#" class="language__link">al</a>
+            </div>
+            </li>
+          </ul>
+        </div>
+        <ul class="navbar__menu menu">
+          <li class="menu__item">
+            <a href="#" class="menu__link">Services</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Portfolio</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Blog</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">About</a>
+          </li>
+        </ul>
+        <div class="navbar__actions">
+          <button class="navbar__theme-btn theme">
+            <div class="navbar__theme-icon"></div>
+          </button>
+          <button class="navbar__burger-btn burger">
+            <div class="navbar__burger-icon"></div>
+          </button>
+          <a href="#" class="navbar__contact-btn">Let's Talk</a>
+        </div>
+        <div class="off-canvas">
+          <ul class="off-canvas__menu menu">
+            <li class="off-canvas__item">
+              <a href="#" class="off-canvas__link">Home</a>
+            </li>
+            <li class="off-canvas__item">
+              <a href="#" class="off-canvas__link off-canvas__link--active">Services</a>
+            </li>
+            <li class="off-canvas__item">
+              <a href="#" class="off-canvas__link">Portfolio</a>
+            </li>
+            <li class="off-canvas__item">
+              <a href="#" class="off-canvas__link">Blog</a>
+            </li>
+            <li class="off-canvas__item">
+              <a href="#" class="off-canvas__link">About</a>
+            </li>
+            <li class="off-canvas__item">
+              <a href="#" class="off-canvas__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="overlay"></div>
+      </nav>
+    </header>
+    <main class="site__main main">
+      <div class="section section--hero">
+        <div class="container">
+          <div class="hero__content">
+            <h1 class="hero__title">Taking<br>you to the<br>next level</h1>
+            <h3 class="hero__subtitle">In <span class="hero__subtitle--focus"></span></h3>
+            <div class="hero__actions"><a href="#" class="hero__cta">Get started</a></div>
+          </div>
+          <div class="hero__cover">
+            <img class="hero__image" src="/img/hero-2.svg" alt="" loading="lazy">
+          </div>
+        </div>
+      </div>
+      <div class="section section--services">
+        <div class="container">
+          <div class="section__header">
+            <h2 class="section__title">Our Services</h2>
+            <h3 class="section__subtitle">What we do</h3>
+          </div>
+          <div class="services__list">
+            <div class="services__item service">
+              <div class="service__head">
+                <svg class="service__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                  <circle cx="256" cy="256" r="256" fill="rgba(var(--clrPrimary),0.15)" />
+                  <path fill="rgb(var(--clrEmphasis))"
+                    d="M49.4 118h370.5c12.2 0 22.1 10 22.1 22.2v228.2H27.2V140.2c0-12.2 10-22.2 22.2-22.2z" />
+                  <path fill="rgb(var(--clrBody))"
+                    d="M42.3 353.4H427V140.2c0-4-3.2-7.1-7.1-7.1H49.4a7.2 7.2 0 00-7.1 7v213.3z" />
+                  <path fill="rgb(var(--clrSecondary))" d="M50.2 163.5H419v85.3H50.2v-85.3z" />
+                  <path fill="rgb(var(--clrMuted))"
+                    d="M7 368.4h455.2v12.8c0 7-5.8 12.8-12.8 12.8H19.9c-7 0-12.8-5.8-12.8-12.8v-12.8z" />
+                  <path fill="rgb(var(--clrEmphasis)" d="M189.2 373H280l-9.7 6.5H199l-9.7-6.4z" />
+                  <path fill="rgb(var(--clrEmphasis))"
+                    d="M331.1 198.4h136.1c4.3 0 7.8 3.5 7.8 7.8v180c0 4.3-3.5 7.8-7.8 7.8h-136a7.8 7.8 0 01-7.9-7.8v-180c0-4.3 3.5-7.8 7.8-7.8z" />
+                  <path fill="rgb(var(--clrBody))"
+                    d="M332.8 212.2h132.7c.5 0 1 .4 1 1v161.6c0 .5-.5.9-1 .9H332.8a1 1 0 01-.9-1V213.2c0-.5.4-.9 1-.9z" />
+                  <circle cx="399.2" cy="384.5" r="5.1" fill="rgb(var(--clrBody))" />
+                  <path fill="rgb(var(--clrSecondary))" d="M339 232.5h120.4v71H339v-71z" />
+                  <path fill="rgb(var(--clrEmphasis))"
+                    d="M437.9 268.4h63a4 4 0 014 4V390a4 4 0 01-4 4h-63a4 4 0 01-4-4V272.4a4 4 0 014-4z" />
+                  <path fill="rgb(var(--clrBody))"
+                    d="M440.9 280.1H498c.2 0 .4.2.4.4v101.3c0 .2-.2.4-.4.4h-57.1a.4.4 0 01-.4-.4V280.5c0-.2.1-.4.4-.4z" />
+                  <g fill="rgb(var(--clrBody))">
+                    <circle cx="469.4" cy="387.6" r="3.6" />
+                    <path d="M459.8 274.9H479c.5 0 .9.4.9.8 0 .5-.4 1-.9 1h-19.2a.9.9 0 110-1.8z" />
+                  </g>
+                  <path fill="rgb(var(--clrPrimary))"
+                    d="M427 156.8H42.3v-16.6c0-4 3.2-7.1 7-7.1H420c3.9 0 7 3.2 7 7v16.7z" />
+                  <path fill="rgb(var(--clrBody))"
+                    d="M206.4 139.9h197.1c1.5 0 2.7 1.1 2.7 2.6v4.9c0 1.4-1.2 2.6-2.7 2.6h-197a2.6 2.6 0 01-2.7-2.6v-4.9c0-1.5 1.2-2.6 2.6-2.6z" />
+                  <g fill="rgb(var(--clrBody))">
+                    <path
+                      d="M58.6 139.7a6 6 0 110 11.9 6 6 0 010-12zM82.2 139.7a6 6 0 110 11.9 6 6 0 010-12zM105.7 139.7a6 6 0 110 11.9 6 6 0 010-12z" />
+                  </g>
+                  <path fill="rgb(var(--clrSecondary))" d="M91.1 269.4a17.2 17.2 0 110 34.4 17.2 17.2 0 010-34.4z" />
+                  <path fill="rgb(var(--clrPrimary))" d="M180 269.4a17.2 17.2 0 110 34.4 17.2 17.2 0 010-34.4z" />
+                  <g fill="rgb(var(--clrMuted))">
+                    <path
+                      d="M66.5 311.2h49.3v2.7H66.5v-2.7zm0 16.9h33.1v2.6H66.5v-2.6zm0-8.5h49.3v2.7H66.5v-2.7zM155.3 311.2h49.4v2.7h-49.4v-2.7zm0 16.9h33.2v2.6h-33.2v-2.6zm0-8.5h49.4v2.7h-49.4v-2.7z" />
+                  </g>
+                  <path fill="rgb(var(--clrInfo))" d="M274.4 269.4a17.2 17.2 0 110 34.4 17.2 17.2 0 010-34.4z" />
+                  <path fill="rgb(var(--clrMuted))"
+                    d="M249.7 311.2H299v2.7h-49.4v-2.7zm0 16.9h33.2v2.6h-33.2v-2.6zm0-8.5H299v2.7h-49.4v-2.7z" />
+                  <path fill="rgb(var(--clrSecondary))" d="M363 313.7a10.7 10.7 0 110 21.3 10.7 10.7 0 010-21.3z" />
+                  <path fill="rgb(var(--clrMuted))"
+                    d="M347.6 339.6h30.7v2.2h-30.7v-2.2zm0 13.6h20.6v2.2h-20.6v-2.2zm0-6.8h30.7v2.2h-30.7v-2.2z" />
+                  <path fill="rgb(var(--clrPrimary))" d="M404.6 313.7a10.7 10.7 0 110 21.3 10.7 10.7 0 010-21.3z" />
+                  <path fill="rgb(var(--clrMuted))"
+                    d="M389.3 339.6H420v2.2h-30.7v-2.2zm0 13.6H410v2.2h-20.6v-2.2zm0-6.8H420v2.2h-30.7v-2.2z" />
+                  <path fill="rgb(var(--clrPrimary))"
+                    d="M466.4 227.8H332V213c0-.5.4-.9 1-.9h132.6c.5 0 1 .4 1 1v14.6z" />
+                  <g fill="rgb(var(--clrBody))">
+                    <path
+                      d="M341.9 216.7a3.5 3.5 0 110 7 3.5 3.5 0 010-7zM351.7 216.7a3.5 3.5 0 110 7 3.5 3.5 0 010-7zM361.6 216.7a3.5 3.5 0 110 7 3.5 3.5 0 010-7z" />
+                  </g>
+                  <path fill="rgb(var(--clrBody))"
+                    d="M381.2 217.4h80c.6 0 1.1.7 1.1 1.5v2.6c0 .7-.5 1.4-1 1.4h-80c-.7 0-1.2-.7-1.2-1.4v-2.6c0-.8.5-1.5 1.1-1.5z" />
+                  <path fill="rgb(var(--clrPrimary))" d="M498.4 287h-58v-6.5c0-.2.2-.4.5-.4H498c.2 0 .4.2.4.4v6.4z" />
+                  <path fill="rgb(var(--clrBody))" d="M444.6 281.3a2 2 0 110 4 2 2 0 010-4z" />
+                  <g fill="rgb(var(--clrBody))">
+                    <path d="M450.2 281.3a2 2 0 110 4 2 2 0 010-4zM455.8 281.3a2 2 0 110 4 2 2 0 010-4z" />
+                  </g>
+                  <path fill="rgb(var(--clrBody))"
+                    d="M464 281.6h32.2c.4 0 .7.3.7.7v2.1c0 .5-.3.8-.7.8H464a.8.8 0 01-.8-.8v-2c0-.5.3-.8.8-.8z" />
+                  <path fill="rgb(var(--clrSecondary))" d="M443.3 289.1h52.3V320h-52.3V289z" />
+                  <path fill="rgb(var(--clrInfo))" d="M471 326.3a9.7 9.7 0 110 19.4 9.7 9.7 0 010-19.4z" />
+                  <path fill="rgb(var(--clrMuted))"
+                    d="M454.1 352.8h33.7v2.4h-33.7v-2.4zm0 15h22.7v2.3H454v-2.3zm0-7.5h33.7v2.3h-33.7v-2.3z" />
+                  <path fill="rgba(var(--clrPrimary),0.3)" d="M40.3 394h431.4l-4.4 6.6H44.7l-4.4-6.6z" />
+                  <path fill="rgb(var(--clrBody))" d="M382.2 204h34c.5 0 .9.3.9.8s-.4 1-1 1h-34a.9.9 0 010-1.8z" />
+                </svg>
+              </div>
+              <div class="service__body">
+                <h4 class="service__title">Web Design & Development</h4>
+                <p class="service__summary">It is a long established fact that a reader will be distracted by the
+                  readable content of a page when looking at its
+                  layout</p>
+                <ul class="service__options">
+                  <li>Static Website</li>
+                  <li>e-Commerce Website</li>
+                  <li>Personal Website</li>
+                  <li>Corporate Website</li>
+                </ul>
+              </div>
+            </div>
+            <div class="services__item service">
+              <div class="service__head">
+                <!-- <svg class="service__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                  <circle cx="256" cy="256" r="256" fill="rgb(var(--clrPrimary))" />
+                  <path fill="#eee" d="M429.6 90L132.3 192.3l90.6 18L429.6 90z" />
+                  <path fill="rgb(var(--clrSecondary))" d="M132.3 192.3l90.6 18 60.1-35-150.7 17z" />
+                  <path fill="#ccc" d="M222.9 210.4l14 106.7 192.7-227L223 210.3z" />
+                  <path fill="rgb(var(--clrSecondaryHover)" d="M222.9 210.4l14 106.7 86.2-101.5-15-24.2-29.4 24.6 4.3-40.6-60.1 35z" />
+                  <path fill="rgb(var(--clrSecondary))" d="M278.7 216l-23.3 19.4-18.5 81.7 86.2-101.5-15-24.2-29.4 24.6z" />
+                  <path fill="#eee" d="M370.4 292.7L429.6 90 255.4 235.4l115 57.3z" />
+                  <path fill="rgb(var(--clrSecondary))" d="M278.6 216l-23.3 19.4 115 57.3L308 191.4 278.6 216z" />
+                  <path fill="#eee" d="M71 347.2L195 229.9l5.1 7L71 347.2zm138.5 82l113-125.3 7.6 3.5-120.6 121.9zM119 417l99.4-96 5.4 4.7L119 417z" />
+                </svg> -->
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="service__icon">
+                  <circle cx="256" cy="256" r="256" fill="rgba(var(--clrPrimary),0.15)" />
+                  <path fill="rgb(var(--clrEmphasis))"
+                    d="M277.1 187.4l34.8 38.5L76.4 438.4a257.3 257.3 0 01-33.1-40l233.8-211z" />
+                  <path fill="rgb(var(--clrSecondaryHover))"
+                    d="M279.2 182.6l37.6 41.7-85.3 77c-4.6 4.1-16.8-1.8-27.1-13.3-10.4-11.5-15.1-24.2-10.5-28.3l85.3-77z" />
+                  <path fill="rgb(var(--clrSecondary))"
+                    d="M306.4 196c10.3 11.4 15 24 10.4 28.2-4.6 4.2-16.7-1.8-27.1-13.3-10.4-11.4-15-24.1-10.5-28.3 4.6-4.1 16.8 1.8 27.2 13.3z" />
+                  <path fill="rgb(var(--clrSecondary))"
+                    d="M328.9 65.7l8.6 26.7h28l-22.7 16.4 8.7 26.7L329 119l-22.7 16.5 8.7-26.7-22.7-16.4h28l8.7-26.7z" />
+                  <path fill="rgb(var(--clrPrimary))"
+                    d="M191.7 91l20.8 27.6 32.7-11.4-19.9 28.4 21 27.5-33.1-10-19.8 28.4-.6-34.7-33.2-10 32.8-11.2-.8-34.7z" />
+                  <path fill="rgb(var(--clrSecondary))"
+                    d="M355.9 306.3l13.2 22.6 25.5-5.7-17.4 19.6 13.3 22.5-24-10.5-17.3 19.6 2.6-26-24-10.5 25.6-5.5 2.5-26.1z" />
+                  <path fill="rgb(var(--clrPrimary))"
+                    d="M390.8 166.2l8.2 25.5h26.8L404 207.2l8.3 25.4-21.6-15.8-21.6 15.8 8.3-25.4-21.6-15.7h26.7l8.2-25.4z" />
+                  <path fill="rgb(var(--clrSecondary))"
+                    d="M147.7 223l5.8 17.9h18.8l-15.2 11 5.8 17.9-15.2-11.1-15.2 11 5.9-17.8-15.3-11H142l5.8-18z" />
+                  <path fill="rgb(var(--clrPrimary))"
+                    d="M243.6 329.1l5 15.7h16.6l-13.4 9.7 5.1 15.7-13.3-9.7-13.3 9.7 5-15.7-13.3-9.7h16.5l5-15.7z" />
+                  <g fill="rgb(var(--clrSecondary))">
+                    <path
+                      d="M268.5 131.3c28 0 55 9.8 76.5 28l-2.3 2.7a114.5 114.5 0 00-74.2-27.2v-3.5zM387 249.8a118.9 118.9 0 01-14 55.8l-3.1-1.6a114.3 114.3 0 0013.5-54.2h3.6zM316.5 358a117.6 117.6 0 01-48 10.1v-3.5a115.5 115.5 0 0046.6-9.8l1.4 3.2zM165.6 192.3c-5.4 8.3-9.6 17-12.7 26.1l3.3 1.2c3-8.8 7.1-17.3 12.3-25.3l-3-2z" />
+                  </g>
+                </svg>
+              </div>
+              <div class="service__body">
+                <h4 class="service__title">Brand Ideas & Strategies</h4>
+                <p class="service__summary">It is a long established fact that a reader will be distracted by the
+                  readable content of a page when looking at its
+                  layout</p>
+                <ul class="service__options">
+                  <li>Logo Creation</li>
+                  <li>Graphic Design</li>
+                  <li>Brand Strategy</li>
+                  <li>Content Design</li>
+                </ul>
+              </div>
+            </div>
+            <div class="services__item service">
+              <div class="service__head">
+                <svg class="service__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                  <circle cx="256" cy="256" r="256" fill="rgba(var(--clrPrimary),0.15)" />
+                  <g fill="rgb(var(--clrEmphasis))">
+                    <path
+                      d="M63 178.5c0-13.3 3.1-23.6 9.5-30.7 6.3-7.1 15.8-10.7 28.5-10.7s22.2 3.6 28.6 10.7c6.3 7.1 9.5 17.4 9.5 30.7v5.1h-24.4v-6.8c0-6-1.2-10.1-3.4-12.5a12.4 12.4 0 00-9.6-3.7c-4 0-7.2 1.2-9.5 3.7-2.3 2.4-3.4 6.6-3.4 12.5 0 5.7 1.3 10.6 3.8 15A62 62 0 00102 204c3.7 3.8 7.8 7.6 12 11.5 4.4 3.8 8.4 8 12.2 12.6a64 64 0 019.4 15.5 51.2 51.2 0 013.7 20.4c0 13.3-3.2 23.5-9.7 30.7-6.5 7.1-16.1 10.7-28.8 10.7s-22.3-3.6-28.8-10.7c-6.5-7.2-9.7-17.4-9.7-30.7V254h24.4v11.8c0 6 1.2 10 3.6 12.4 2.5 2.4 5.7 3.5 9.8 3.5 4 0 7.3-1.1 9.7-3.5 2.5-2.3 3.7-6.5 3.7-12.4 0-5.7-1.3-10.7-3.8-15a62 62 0 00-9.4-12.2c-3.7-3.8-7.8-7.7-12-11.5A115 115 0 0176 214.4a64 64 0 01-9.4-15.5 51.2 51.2 0 01-3.7-20.4zM180 208.3h35.5v23.5H180V280h44.6v23.5h-70.5V139h70.5v23.5H180v45.8z" />
+                  </g>
+                  <path fill="rgba(var(--clrInvert),0.15)"
+                    d="M289.6 129.4l-2.7-17.8 28.3-7.8 6.8 16.8c6.4-.6 12.8-.7 19.2-.1l6.6-16.9 28.4 7.5-2.5 18c5.8 2.5 11.4 5.7 16.7 9.4l14.1-11.3 20.9 20.7-11.2 14.3c3.8 5.2 7 10.8 9.7 16.5l18-2.7 7.7 28.3-16.8 6.8c.6 6.4.6 12.8 0 19.2l17 6.6-7.5 28.4-18-2.5c-2.5 5.8-5.7 11.4-9.4 16.7l11.3 14.1-20.7 20.9-14.3-11.2a101 101 0 01-16.5 9.7l2.7 18-28.4 7.7-6.8-16.8c-6.3.6-12.7.6-19.1 0l-6.6 17-28.5-7.5 2.6-18c-5.8-2.5-11.4-5.7-16.7-9.4l-14.1 11.3-21-20.7 11.2-14.3a101 101 0 01-9.7-16.5l-17.8 2.7-7.8-28.4 16.8-6.8c-.6-6.3-.7-12.7-.1-19.1l-16.9-6.6L222 177l18 2.6c2.5-5.8 5.7-11.4 9.4-16.7L238.1 149l20.7-21 14.3 11.2c5.2-3.8 10.8-7 16.5-9.7zm42.5 16.1a75.7 75.7 0 110 151.5 75.7 75.7 0 010-151.5z" />
+                  <g fill="#333">
+                    <path d="M338.8 314.1v21h-13.4v-21a309.4 309.4 0 0013.4 0z" />
+                    <circle cx="332.1" cy="221.5" r="93.5" />
+                  </g>
+                  <circle cx="332.1" cy="221.5" r="84.8" fill="rgb(var(--clrSecondary))" />
+                  <path fill="#f1f1f1"
+                    d="M332.1 146a75.8 75.8 0 0174.2 60.8 76 76 0 01-20.7 68.1 76 76 0 01-82.3 16.4 75.4 75.4 0 01-24.6-16.4 76 76 0 01-20.7-68.1 75.1 75.1 0 0159.4-59.4 76 76 0 0114.7-1.5zm-59.5 102.7h18.8a79 79 0 01-4.5-22.1h-20a65.7 65.7 0 005.7 22zm29.7 0H327v-22.1h-30a69.5 69.5 0 005.2 22zm35 0H362a72.7 72.7 0 005.2-22.1h-30v22zm35.6 0h18.8a64.2 64.2 0 005.7-22.1h-20a77.9 77.9 0 01-4.5 22zm13 10.1h-17.4l-1.2 2.3a93.4 93.4 0 01-18.3 23.6 65 65 0 0032.3-20 65.7 65.7 0 004.3-5.6l.3-.3zm-29 0h-19.7v22.9a105.4 105.4 0 0015.7-16.9 81 81 0 003.4-5l.6-1zm-29.8 0h-19.7l.5 1a82.4 82.4 0 0016.8 19.8l2.4 2v-22.8zm-31.3 0h-17.4l.2.3a63.4 63.4 0 004.4 5.6 66.3 66.3 0 0032.3 20 105.7 105.7 0 01-19.5-25.9zm-17.4-74.6h17.8l1-2a95.5 95.5 0 013.6-6 99.5 99.5 0 0114.9-18 65.6 65.6 0 00-29.8 17 65.7 65.7 0 00-7.5 9zm29.4 0H327v-22.7a110.4 110.4 0 00-15.9 17.4 87.1 87.1 0 00-3.1 4.8l-.3.5zm29.4 0h19.3l-.3-.5a79.3 79.3 0 00-7.5-10.5 104 104 0 00-11.5-11.7v22.7zm31 0h17.7l-.3-.3a64.8 64.8 0 00-7.2-8.6 65.8 65.8 0 00-29.8-17.1 106.4 106.4 0 0114.9 18 92.3 92.3 0 014.6 8zm23.5 10.1h-19.2a83.5 83.5 0 014.8 22.1h20a65.2 65.2 0 00-5.7-22zm-30 0h-24.5v22.1h30a69.3 69.3 0 00-5.5-22zm-34.6 0h-24.5a75.5 75.5 0 00-5.4 22.1H327v-22zm-35.4 0h-19a64.7 64.7 0 00-5.8 22.1H287a79 79 0 014.7-22z" />
+                  <path fill="#333"
+                    d="M321.9 452.3h20.5c2.8 0 5.2-2.4 5.2-5.3V345.3c0-3-2.4-5.3-5.2-5.3h-20.5a5.3 5.3 0 00-5.2 5.3V447c0 2.9 2.3 5.3 5.2 5.3z" />
+                  <path fill="#f1f1f1"
+                    d="M347.6 349.5v-9.2c0-2.9-2.4-5.3-5.2-5.3h-20.5a5.3 5.3 0 00-5.2 5.3v9.2h30.9z" />
+                  <path fill="#ddd"
+                    d="M347.6 349.5v-9.2c0-2.8-2.2-5-4.9-5.3v14.5h4.9zm-26-14.5a5.3 5.3 0 00-4.9 5.3v9.2h4.8V335z" />
+                  <path fill="rgba(var(--clrInvert),0.15)"
+                    d="M407.3 329.8a33 33 0 017-.3l3.3-7 16.5 5.8-2 7.5c1.9 1.3 3.6 2.9 5.2 4.6l7.2-2.5 7.6 15.8-6.7 3.8c.4 2.3.5 4.6.4 7l6.9 3.2-5.8 16.6-7.4-2a33 33 0 01-4.7 5.1l2.6 7.2-15.8 7.6-3.8-6.6c-2.4.3-4.7.4-7 .3l-3.3 7L391 397l2-7.4c-1.9-1.3-3.6-3-5.2-4.7l-7.2 2.6-7.6-15.8 6.7-3.8c-.4-2.3-.5-4.7-.4-7l-7-3.2 5.9-16.6 7.4 2a33 33 0 014.7-5.2l-2.6-7.2 15.8-7.6 3.8 6.7zm5.2 8a24.8 24.8 0 110 49.7 24.8 24.8 0 010-49.6z" />
+                </svg>
+              </div>
+              <div class="service__body">
+                <h4 class="service__title">SEO Optimization</h4>
+                <p class="service__summary">It is a long established fact that a reader will be distracted by the
+                  readable content of a page when looking at its
+                  layout</p>
+                <ul class="service__options">
+                  <li>Map Registration</li>
+                  <li>Google Business</li>
+                  <li>Social Media SEO</li>
+                  <li>Website SEO</li>
+                </ul>
+              </div>
+            </div>
+            <div class="services__item service">
+              <div class="service__head">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="service__icon">
+                  <circle cx="256" cy="256" r="256" fill="rgba(var(--clrPrimary),0.15)" />
+                  <ellipse cx="256" cy="421.6" fill="rgba(var(--clrPrimary),0.3)" rx="182.3" ry="14.4" />
+                  <path fill="rgb(var(--clrEmphasis))"
+                    d="M66 67.2h380A22.8 22.8 0 01468.7 90V324H43.3V90A22.8 22.8 0 0166 67.1z" />
+                  <path fill="rgb(var(--clrBorder))"
+                    d="M58.7 308.6h394.6V90c0-4-3.3-7.3-7.3-7.3H66c-4 0-7.3 3.3-7.3 7.3v218.7z" />
+                  <g fill="rgb(var(--clrBody))">
+                    <path
+                      d="M468.7 324V349c0 12.4-11.2 22.7-25 22.7H68.3c-13.8 0-25-10.3-25-22.7V324h425.4zM141.2 115.5H405c4.2 0 7.6 3.4 7.6 7.6v185.5h-313V123.1c0-4.2 3.4-7.6 7.6-7.6h34.1z" />
+                  </g>
+                  <path fill="rgb(var(--clrEmphasis))"
+                    d="M107 115.5h298c4 0 7.5 3.4 7.5 7.6v15h-313v-15c0-4.2 3.4-7.6 7.6-7.6z" />
+                  <path fill="rgb(var(--clrBody))"
+                    d="M226.4 123.3H390c1.1 0 2 1 2 2v3.8c0 1.1-.9 2-2 2H226.4a2 2 0 01-2-2v-3.8c0-1 .9-2 2-2z" />
+                  <path fill="rgb(var(--clrSuccess))" d="M117.3 122a4.3 4.3 0 110 8.6 4.3 4.3 0 010-8.6z" />
+                  <path fill="rgb(var(--clrInfo))" d="M134.4 122a4.3 4.3 0 110 8.6 4.3 4.3 0 010-8.6z" />
+                  <g fill="rgb(var(--clrSecondary))">
+                    <path d="M151.6 122a4.3 4.3 0 110 8.6 4.3 4.3 0 010-8.6zM245.2 224.4h24.2l-58.6 84.2h-24.2z" />
+                  </g>
+                  <path fill="rgb(var(--clrSecondaryHover))" d="M269.4 224.4h-24.2l39 56h24.2l-39-56z" />
+                  <path fill="rgb(var(--clrSecondary))"
+                    d="M368.5 194l-60.1 86.4h-24.2l63-90.9-24.6-6.5 66.6-26.2-3.9 42.8-16.8-5.5z" />
+                  <path fill="rgb(var(--clrMuted))" d="M180 157.8h75v3.7h-75v-3.7zm0 8.6h53.8v3.8h-53.9v-3.8z" />
+                  <path fill="rgb(var(--clrInfo))" d="M117.2 207.9h9.1v25.7h-9.1z" />
+                  <path fill="rgb(var(--clrDanger))" d="M136.4 185.7h9.1v47.9h-9.1z" />
+                  <path fill="rgb(var(--clrSuccess))" d="M155.6 158h9.1v75.6h-9.1z" />
+                  <circle cx="256" cy="346.8" r="7.8" fill="rgb(var(--clrEmphasis))" />
+                  <path fill="rgb(var(--clrCover))" d="M305 407.3l36.2 11.5H170.8l29.2-11.5v-35.7h105v35.7z" />
+                  <path fill="rgb(var(--clrBorder))" d="M305 407.3l-105-35.7h105v35.7z" />
+                  <path fill="rgb(var(--clrBody))" d="M200 407.3h105l36.2 11.5v5H170.8v-5l29.2-11.5z" />
+                  <path fill="rgb(var(--clrMuted))" d="M180 176.1h75v3.7h-75v-3.7zm0 8.7h53.8v3.7h-53.9v-3.7z" />
+                </svg>
+              </div>
+              <div class="service__body">
+                <h4 class="service__title">Analytics & Advertising</h4>
+                <p class="service__summary">It is a long established fact that a reader will be distracted by the
+                  readable content of a page when looking at its
+                  layout</p>
+                <ul class="service__options">
+                  <li>Logo Creation</li>
+                  <li>Graphic Design</li>
+                  <li>Brand Strategy</li>
+                  <li>Content Design</li>
+                </ul>
+              </div>
+            </div>
+            <div class="services__item service">
+              <div class="service__head">
+                <svg class="service__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                  <circle cx="256" cy="256" r="256" fill="rgba(var(--clrPrimary),0.15)" />
+                  <path fill="rgb(var(--clrSecondary))"
+                    d="M170.4 192.6c1-6 8.3-9.1 11.7-4.7L292.4 332c3.4 4.4-1.6 10.6-7.6 10-69.7-7.8-108.7 5.8-130.6 23.6l-40.7-53.2c23-16.5 46.2-50.6 57-119.9z" />
+                  <path fill="rgb(var(--clrEmphasis))"
+                    d="M62.2 373.4l8.2-6.3L90.2 393l-8.2 6.3c-1 .8-2.5.6-3.4-.5l-16.8-22c-.8-1.1-.6-2.6.4-3.4z" />
+                  <path fill="rgb(var(--clrSecondary))"
+                    d="M65.4 360.2l20.3-15.5 30.2 39.4-20.3 15.6a6 6 0 01-8.4-1.2l-23-30a6 6 0 011.2-8.3z" />
+                  <g fill="rgb(var(--clrEmphasis))">
+                    <path
+                      d="M84.7 330.5l46-35.2 44.6 58.2-46 35.2c-6 4.6-14.5 3.4-19-2.5l-28-36.7c-4.6-5.9-3.5-14.4 2.4-19zM171 182.7l2.8-2.1c2-1.5 5.8.2 8.5 3.8l113.5 148.3c2.8 3.7 3.5 7.8 1.5 9.3l-2.7 2.1c-2 1.5-5.8-.3-8.6-3.9L172.6 192c-2.8-3.6-3.5-7.7-1.6-9.2z" />
+                  </g>
+                  <path fill="rgb(var(--clrSecondary))" d="M228.6 244.9a22.9 22.9 0 0124.3 31.8L228.6 245z" />
+                  <path fill="rgb(var(--clrSecondary))"
+                    d="M289.9 247.7l-22.6 7.7-1-2.8 22.6-7.7 1 2.8zm1.2 42.4l-22.4-8.3-1 2.8L290 293l1-2.9zm-7.2-9.4l-13-4.9-1 2.9 13 4.8 1-2.8zm-57.5-75l2.2 23.8-3 .2-2.2-23.8 3-.3zm7.3 9.4l1.3 13.8-3 .3-1.3-13.8 3-.3zm31 .8l-13.6 19.7-2.5-1.7 13.7-19.7 2.4 1.7zm-.5 12l-7.9 11.3-2.4-1.7 7.9-11.4 2.4 1.7zm18.2 29l-13.1 4.5-1-2.8 13.2-4.5 1 2.9z" />
+                  <path fill="rgb(var(--clrSecondary))"
+                    d="M159.3 365.7c3.1 3.8 3.4 9.5 11 21.9 4.2 7 11.3 3.8 13 13.4 1.5 9.6 9.2 9.1 12.3 12.9 3.1 3.7 1.3 7.8 7.6 13.4L181.4 444c-9.3-7.7-23-21-36.3-41.3l-11.4-17.3 25.6-19.7z" />
+                  <path fill="rgb(var(--clrEmphasis))"
+                    d="M181.4 444l23-17.6c.5-.3 1-.4 1.2-.2l3.2 4.3c.2.3 0 .8-.4 1.1l-23 17.6c-.4.3-1 .4-1.2.1l-3.2-4.2c-.2-.3 0-.8.4-1.1z" />
+                  <path fill="rgb(var(--clrEmphasis))" d="M161 364.5l17.5 16.5-8.2 6.6-12.5-20.7 3.2-2.4z" />
+                  <path fill="rgb(var(--clrPrimary))" d="M447.1 337l-82.7-33 51.5-8.9 31.2 42z" />
+                  <path fill="rgb(var(--clrBody))"
+                    d="M439.1 323L380 299.2a6 6 0 00-7.8 3.4l-22.6 56.5 70.3 28 22.6-56.5a6 6 0 00-3.4-7.8z" />
+                  <path fill="rgb(var(--clrPrimary))" d="M447.1 337l-51 10.2 30 42.5 21-52.6z" />
+                  <path fill="rgb(var(--clrPrimaryHover))" d="M426.1 389.7l-82.7-33 51.9-9.9 30.8 42.9z" />
+                  <path fill="rgb(var(--clrPrimary))" d="M364.4 304l30 42.5-51 10.2 21-52.6z" />
+                  <path fill="rgb(var(--clrMuted))"
+                    d="M385.5 308.1l46.3 18-.6 1.5-46.2-18 .5-1.5zm-4.6 12l29.9 11.6-.6 1.4-29.9-11.6.6-1.5zm1.5-4l46.3 18-.6 1.4-46.2-18 .5-1.4zm1.6-4l46.2 18-.5 1.4-46.3-18 .6-1.4z" />
+                  <path fill="rgb(var(--clrSecondary))"
+                    d="M362.4 165.5l-34 11.1-9.5-34.3 36.2-7.9c.6-3.5 3-8.9 5.3-10.3l5.3-10 .2-7-1.2-8c-.4-3 4-4.6 7.1-2.5 3.4 2.3 5.8 9.8 5.7 13.4v12.1L394 118l5.5-1.8c5.8-2 9.4 7.5 3 9.6l-4.9 1.7.1.8 5.6-2.1c4.8-1.8 8.3 7.3 2.9 9.3l-7.5 2.8v1l5.6-2.1c1.9-.7 4.1.8 4.8 3.4.8 2.6-.2 5-2 5.8l-6.3 2.6.1.5 4.2-1.4c4.5-1.4 6.9 6.5 2.8 8.2l-5.2 2-.9.4-8.2 3-19.1 6c-4 1.2-8 .2-10.4-1-.7-.3-1.3-.7-1.8-1.1z" />
+                  <path fill="rgb(var(--clrPrimary))" d="M337.5 135.6l10.6 36.3-19 7.3-10.9-39.4 19.3-4.2z" />
+                  <g fill="rgb(var(--clrBody))">
+                    <path
+                      d="M344.7 135.4l9.8 33-6.7 2.4-10.1-34 7-1.4zM369 98.7l1 4.7c-1.2-.1-2.4 0-3.6.6l-.8-4.3c-.4-2.7 3-3.7 3.4-1z" />
+                  </g>
+                  <path fill="rgb(var(--clrSecondaryHover))"
+                    d="M239.9 85.1c-21.7 5.2-35.7 24.8-31.1 43.7 2.3 9.7 9 17.4 18 21.9-7.3 9.6-16.1 11-16.1 11 9.8 4.5 22.3-2 29.8-7 5 .6 10.4.3 15.8-1C278 148.6 292 129 287.4 110S261.6 79.9 240 85.1z" />
+                  <path fill="rgb(var(--clrPrimary))"
+                    d="M257.9 34c21.7-5.2 43 6 47.5 25 2.3 9.6-.2 19.5-6 27.5 10.7 5.3 19.3 2.5 19.3 2.5-6.8 8.5-20.9 8.4-29.8 7.4-4.3 2.8-9.2 5-14.6 6.3-21.7 5.2-43-6-47.5-25-4.6-18.9 9.4-38.5 31-43.7z" />
+                  <g fill="rgb(var(--clrBody))">
+                    <path
+                      d="M243 64.2l39.2-9.4c1.7-.5 2.4 2.2.6 2.6l-39.2 9.4c-1.8.5-2.4-2.2-.6-2.6zm3.6 17.5l23.3-5.6c1-.3 1.7 2.4.6 2.6l-23.3 5.6c-1 .3-1.7-2.4-.6-2.6zm-1.6-8.9l39.3-9.4c1.7-.4 2.4 2.3.6 2.7l-39.2 9.4c-1.8.4-2.4-2.2-.7-2.7zM227.3 120l39.2-9.3c1.8-.5 2.5 2.2.7 2.6l-39.2 9.4c-1.8.5-2.4-2.2-.7-2.6zm3.7 17.5l23.2-5.5c1-.3 1.7 2.4.7 2.6l-23.3 5.6c-1 .3-1.7-2.4-.6-2.7zm-1.6-8.8l39.2-9.4c1.8-.4 2.4 2.3.7 2.7l-39.2 9.4c-1.8.4-2.5-2.2-.7-2.7z" />
+                  </g>
+                  <path fill="rgb(var(--clrSecondaryHover))" d="M356.6 204l90.1-11.9 7.3 55.3-90 11.9z" />
+                  <path fill="rgb(var(--clrBody))" d="M394.4 213.3l19.2 10.8-15.7 15.4-3.5-26.2z" />
+                </svg>
+              </div>
+              <div class="service__body">
+                <h4 class="service__title">Social Media Management</h4>
+                <p class="service__summary">It is a long established fact that a reader will be distracted by the
+                  readable content of a page when looking at its
+                  layout.</p>
+                <ul class="service__options">
+                  <li>Logo Creation</li>
+                  <li>Graphic Design</li>
+                  <li>Brand Strategy</li>
+                  <li>Content Design</li>
+                </ul>
+              </div>
+            </div>
+            <div class="services__item service">
+              <div class="service__head">
+                <svg class="service__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                  <circle cx="256" cy="256" r="256" fill="rgba(var(--clrPrimary),0.15)" />
+                  <path fill="rgb(var(--clrBody))"
+                    d="M89.6 61.5H472c6 0 10.9 5 10.9 11v302.1C387.3 557 124.7 557 29 374.6V72.4c0-6 5-11 11-11h49.5z" />
+                  <path fill="rgb(var(--clrEmphasis))"
+                    d="M40 61.5h432c6 0 10.9 4.9 10.9 11v21.7H29V72.4c0-6 5-11 11-11z" />
+                  <path fill="rgb(var(--clrBody))"
+                    d="M231.1 72.8h219.2a3 3 0 013 3v5.4a3 3 0 01-3 2.9H231.1a3 3 0 01-2.9-3v-5.4a3 3 0 013-2.9z" />
+                  <circle cx="50.9" cy="77.1" r="6.3" fill="rgb(var(--clrSuccess))" />
+                  <circle cx="75.7" cy="77.1" r="6.3" fill="rgb(var(--clrInfo))" />
+                  <circle cx="100.5" cy="77.1" r="6.3" fill="rgb(var(--clrDanger))" />
+                  <path fill="rgb(var(--clrSecondary))" d="M53.7 106.2h404.7v238.5H53.7z" />
+                  <path fill="rgb(var(--clrBorder))" d="M53.7 335.9h404.7v8.8H53.7z" />
+                  <path fill="rgb(var(--clrSecondaryHover))" d="M53.7 335.9h127.5v8.8H53.7z" />
+                  <path fill="rgb(var(--clrEmphasis))"
+                    d="M423 281.4l11.7-15.7 27.4 15.9-7.7 18c5.3 4.4 10.2 9.3 14.6 14.6l18-7.8L503 334l-15.7 11.7c2.4 6.4 4.2 13.1 5.4 20L512 368v31.7l-19.4 2.3c-1.2 7-3 13.6-5.4 20l15.7 11.7-15.9 27.5-18-7.7c-4.4 5.3-9.3 10.2-14.6 14.6l7.7 18-27.4 15.9-11.7-15.7c-6.4 2.4-13.1 4.2-20 5.3l-2.3 19.5h-31.8l-2.2-19.5c-7-1.1-13.6-3-20-5.3L335 501.9l-27.5-16 7.7-17.9c-5.3-4.4-10.2-9.3-14.6-14.6l-18 7.7-15.9-27.5 15.7-11.7c-2.4-6.4-4.2-13-5.3-20l-19.5-2.3V368l19.5-2.3c1.1-6.9 3-13.6 5.3-20L266.7 334l15.9-27.5 18 7.8c4.4-5.3 9.3-10.2 14.6-14.6l-7.7-18 27.5-15.9 11.7 15.7c6.4-2.4 13-4.2 20-5.4l2.2-19.4h31.8L403 276c6.9 1.2 13.6 3 20 5.4z" />
+                  <circle cx="384.8" cy="383.8" r="94.1" fill="rgb(var(--clrBody))" />
+                  <circle cx="384.8" cy="383.8" r="90" fill="rgb(var(--clrPrimary))" />
+                  <path fill="rgb(var(--clrSecondary))"
+                    d="M380.1 312c.5-3.2 4.5-5 6.3-2.6l59.5 77.8c1.8 2.4-.9 5.8-4.1 5.4-37.6-4.2-58.6 3.1-70.4 12.7l-22-28.7c12.4-8.8 25-27.2 30.7-64.6z" />
+                  <path fill="rgb(var(--clrBody))"
+                    d="M321.8 409.5l4.4-3.4 10.7 14-4.4 3.3c-.6.5-1.4.3-1.9-.2l-9-12c-.5-.5-.4-1.3.2-1.7z" />
+                  <path fill="rgb(var(--clrSecondary))"
+                    d="M323.5 402.4l11-8.4 16.2 21.3-11 8.3c-1.3 1.1-3.4.8-4.5-.6L323 407c-1-1.4-.8-3.5.6-4.5z" />
+                  <g fill="rgb(var(--clrBody))">
+                    <path
+                      d="M334 386.4l24.7-19 24 31.4-24.8 19a7.3 7.3 0 01-10.2-1.4l-15.1-19.8a7.3 7.3 0 011.3-10.2zM379.6 307.3l3.2-2.5c.6-.4 1.7.1 2.5 1.2l63.7 83.2c.8 1 1 2.2.4 2.7l-3.2 2.4c-.6.5-1.7 0-2.5-1L380 310c-.8-1-1-2.3-.4-2.7z" />
+                  </g>
+                  <path fill="rgb(var(--clrSecondary))" d="M411.5 340.2a12.3 12.3 0 0113.1 17.1l-13.1-17.1z" />
+                  <path fill="#fff"
+                    d="M444.5 341.7l-12.2 4.2-.5-1.6 12.2-4.1.5 1.5zm.7 22.9L433 360l-.6 1.5 12.1 4.5.6-1.5zm-4-5.1l-7-2.6-.5 1.5 7 2.6.6-1.5zM410.4 319l1.2 12.9-1.6.1-1.2-12.8 1.6-.2zm4 5.1l.6 7.5-1.6.1-.7-7.4 1.6-.2zm16.7.5l-7.4 10.6-1.3-1 7.3-10.6 1.4 1zm-.3 6.4l-4.3 6.1-1.3-.9 4.3-6.1 1.3.9zm9.8 15.7l-7 2.4-.6-1.5 7-2.4.6 1.5z" />
+                  <path fill="rgb(var(--clrSecondary))"
+                    d="M374.1 405.3c1.7 2 1.9 5.2 6 11.8 2.2 3.8 6 2 7 7.3.8 5.1 5 4.9 6.6 6.9 1.7 2 .7 4.2 4.1 7.2l-11.8 9a98.9 98.9 0 01-19.5-22.2l-6.2-9.4 13.8-10.5z" />
+                  <circle cx="256" cy="215.3" r="60.6" fill="rgb(var(--clrPrimary))" />
+                  <path fill="rgb(var(--clrBody))" d="M243.2 176.4l45 38.1-45 38.1v-76.2z" />
+                  <path fill="rgb(var(--clrPrimary))" d="M70.8 360.2h116.8v7.6H70.8z" />
+                  <path fill="rgb(var(--clrMuted))"
+                    d="M70.8 375.9h161v3.4h-161V376zm0 19.9h105.7v3.4H70.8v-3.4zm0-10h161v3.5h-161v-3.5z" />
+                </svg>
+              </div>
+              <div class="service__body">
+                <h4 class="service__title">Music Marketing</h4>
+                <p class="service__summary">It is a long established fact that a reader will be distracted by the
+                  readable content of a page when looking at its
+                  layout</p>
+                <ul class="service__options">
+                  <li>YouTube</li>
+                  <li>Spotify</li>
+                  <li>iTunes</li>
+                  <li>Deezer</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section section--works">
+        <div class="container">
+          <div class="section__header">
+            <h2 class="section__title">Our Clients</h2>
+            <h3 class="section__subtitle">Our Works</h3>
+          </div>
+          <div class="glide">
+            <div class="glide__track" data-glide-el="track">
+              <ul class="glide__slides">
+                <li class="glide__slide">
+                  <figure><img class="slick-slide-image"
+                      src="https://almax.al/wp-content/uploads/2021/07/Vranina-grey.png" alt=""></figure>
+                </li>
+                <li class="glide__slide">
+                  <figure><img class="slick-slide-image"
+                      src="https://almax.al/wp-content/uploads/2021/07/Mario-grey.png" alt=""></figure>
+                </li>
+                <li class="glide__slide">
+                  <figure><img class="slick-slide-image"
+                      src="https://almax.al/wp-content/uploads/2021/07/Dioni-Music-grey.png" alt=""></figure>
+                </li>
+                <li class="glide__slide">
+                  <figure><img class="slick-slide-image"
+                      src="https://almax.al/wp-content/uploads/2021/07/Dioni-Music-grey.png" alt="">
+                  </figure>
+                </li>
+                <li class="glide__slide">
+                  <figure><img class="slick-slide-image"
+                      src="https://almax.al/wp-content/uploads/2021/07/AgroAlko-grey.png" alt=""></figure>
+                </li>
+              </ul>
+            </div>
+            <div class="glide__arrows" data-glide-el="controls">
+              <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+                <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <polyline fill="none" stroke="currentColor" stroke-width="1.6" points="13 16 7 10 13 4" />
+                </svg>
+              </button>
+              <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+                <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <polyline fill="none" stroke="currentColor" stroke-width="1.6" points="7 4 13 10 7 16" />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section section--webfaq">
+        <div class="container">
+          <div class="section__header">
+            <h2 class="section__title">Why you need a website?</h2>
+            <h3 class="section__subtitle">Benefits</h3>
+          </div>
+          <div class="webfaq__list">
+            <div class="webfaq__item">
+              <h3 class="webfaq__title">Attract new customers and make more money</h3>
+              <p class="webfaq__summary">81% of people research a business or service online prior to making a purchase
+                decision.</p>
+            </div>
+            <div class="webfaq__item">
+              <h3 class="webfaq__title">Add instant credibility to your business</h3>
+              <p class="webfaq__summary">56% of people stated that they won’t trust a business without a website. First
+                impressions count, and websites allow you to make a very strong impression</p>
+            </div>
+            <div class="webfaq__item">
+              <h3 class="webfaq__title">It’s not as hard, or as expensive, as you think</h3>
+              <p class="webfaq__summary">It can be very cost effective. Websites offer a better return on investment
+                than any other form of advertising.</p>
+            </div>
+            <div class="webfaq__item">
+              <h3 class="webfaq__title">Having a website will end up saving you time</h3>
+              <p class="webfaq__summary">Your website can save your time by providing answers to common customer
+                questions and inquiries by phone, e-mail etc.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="site__footer">
+      <div class="container">
+        <div class="footer__widgets widgets">
+          <div class="widget">
+            <div class="widget__brand brand">
+              <h1 class="brand__title">
+                <svg class="brand__logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52.9 52.9">
+                  <g fill="none" stroke-linecap="round" stroke-width="7.9">
+                    <path stroke="rgb(var(--clrPrimary))" stroke-linejoin="round" d="M5 38.8L18.5 7.6l15.7 37.7"></path>
+                    <path stroke="rgb(var(--clrSecondary))" d="M37.4 14.1l10.3 24.8"></path>
+                  </g>
+                  <!-- <circle cx="18.4" cy="45.4" r="4.6" fill="red" paint-order="markers fill stroke" /> -->
+                </svg>
+                <span class="brand__name">almax</span>
+              </h1>
+              <p class="brand__about">Almax is a marketing company founded in 2020, a time when digital marketing became
+                essential to every business. We
+                seek and work every day more and more for new ideas to increase your presence in the digital world.</p>
+            </div>
+            <nav class="social-media">
+              <a href="" class="social-media__link">
+                <svg class="social-media__icon" width="20" height="20" viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path fill="currentColor"
+                    d="M11,10h2.6l0.4-3H11V5.3c0-0.9,0.2-1.5,1.5-1.5H14V1.1c-0.3,0-1-0.1-2.1-0.1C9.6,1,8,2.4,8,5v2H5.5v3H8v8h3V10z" />
+                </svg>
+              </a>
+              <a href="" class="social-media__link">
+                <svg class="social-media__icon" width="20" height="20" viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <g fill="currentColor">
+                    <path
+                      d="M13.55,1H6.46C3.45,1,1,3.44,1,6.44v7.12c0,3,2.45,5.44,5.46,5.44h7.08c3.02,0,5.46-2.44,5.46-5.44V6.44 C19.01,3.44,16.56,1,13.55,1z M17.5,14c0,1.93-1.57,3.5-3.5,3.5H6c-1.93,0-3.5-1.57-3.5-3.5V6c0-1.93,1.57-3.5,3.5-3.5h8 c1.93,0,3.5,1.57,3.5,3.5V14z" />
+                    <circle cx="14.87" cy="5.26" r="1.09" />
+                    <path
+                      d="M10.03,5.45c-2.55,0-4.63,2.06-4.63,4.6c0,2.55,2.07,4.61,4.63,4.61c2.56,0,4.63-2.061,4.63-4.61 C14.65,7.51,12.58,5.45,10.03,5.45L10.03,5.45L10.03,5.45z M10.08,13c-1.66,0-3-1.34-3-2.99c0-1.65,1.34-2.99,3-2.99s3,1.34,3,2.99 C13.08,11.66,11.74,13,10.08,13L10.08,13L10.08,13z" />
+                  </g>
+                </svg>
+              </a>
+              <a href="" class="social-media__link">
+                <svg class="social-media__icon" width="20" height="20" viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path fill="currentColor"
+                    d="M15,4.1c1,0.1,2.3,0,3,0.8c0.8,0.8,0.9,2.1,0.9,3.1C19,9.2,19,10.9,19,12c-0.1,1.1,0,2.4-0.5,3.4c-0.5,1.1-1.4,1.5-2.5,1.6 c-1.2,0.1-8.6,0.1-11,0c-1.1-0.1-2.4-0.1-3.2-1c-0.7-0.8-0.7-2-0.8-3C1,11.8,1,10.1,1,8.9c0-1.1,0-2.4,0.5-3.4C2,4.5,3,4.3,4.1,4.2 C5.3,4.1,12.6,4,15,4.1z M8,7.5v6l5.5-3L8,7.5z">
+                </svg>
+              </a>
+            </nav>
+          </div>
+          <div class="widget">
+            <h4 class="widget__title">Contact</h4>
+            <ul class="widget__list">
+              <li class="widget__item">
+                <address><strong>Address:</strong> Street Marin Biçikemi, 4001 Shkodër ALBANIA</address>
+              </li>
+              <li class="widget__item"><strong>Mobile:</strong> +355 68 20 64 988</li>
+              <li class="widget__item"><strong>Email:</strong> info@almax.al</li>
+              <li class="widget__item"><strong>Open Hours:</strong> Monday – Friday from 9:00am – 18:00pm</li>
+            </ul>
+          </div>
+          <div class="widget">
+            <h4 class="widget__title">Services</h4>
+            <ul class="widget__list">
+              <li class="widget__item"><a href="#">Web Design & Development</a></li>
+              <li class="widget__item"><a href="#">Brand Ideas & Strategies</a></li>
+              <li class="widget__item"><a href="#">SEO Optimization</a></li>
+              <li class="widget__item"><a href="#">Analytics & Advertising</a></li>
+              <li class="widget__item"><a href="#">Social Media Management</a></li>
+              <li class="widget__item"><a href="#">Music Marketing</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <p class="container">
+          Copyright 2021 by Jozi
+        </p>
+      </div>
+    </footer>
+  </div>
+  <script src="./js/glide.js"></script>
+  <script>
+    const TitleComponent = () => {
+      const titleSmall = document.querySelector('.hero-title > .hero-text-small')
+      const titleNormal = document.querySelector('.hero-title > .hero-text-normal')
+
+      const titllePrettify = el => {
+        const animateCls = 'hero-text-effect'
+        const chars = el.innerHTML.split('')
+        el.innerHTML = ''
+
+        chars.forEach(char => {
+          let charTimer = null
+
+          const charEl = document.createElement('span')
+          charEl.innerHTML = char
+
+          charEl.addEventListener('mouseover', function (e) {
+            this.classList.remove(animateCls)
+            setTimeout(() => {
+              this.classList.add(animateCls)
+            }, 50)
+          })
+
+          el.appendChild(charEl)
+        })
+      }
+
+      titllePrettify(titleSmall)
+      titllePrettify(titleNormal)
+    }
+
+    const ThemeComponent = () => {
+      const body = document.body
+      const toggleBtn = document.querySelector('.navbar__theme-btn')
+
+      toggleBtn.addEventListener('click', () => {
+        if (body.classList.contains('light')) {
+          body.classList.remove('light')
+          body.classList.add('dark')
+        } else {
+          body.classList.remove('dark')
+          body.classList.add('light')
+        }
+      })
+    }
+
+    const MenuComponent = () => {
+      const brandLink = document.querySelector('.brand__link')
+      const menuLinks = document.querySelectorAll('.menu__link')
+      let active = null
+
+      menuLinks.forEach(link => {
+        link.addEventListener('click', function (e) {
+          e.preventDefault()
+          if (active !== null) {
+            active.classList.remove('menu__link--active')
+          }
+          active = this
+          this.classList.add('menu__link--active')
+        })
+      })
+
+      brandLink.addEventListener('click', e => {
+        e.preventDefault()
+        if (active !== null) {
+          active.classList.remove('menu__link--active')
+        }
+        active = null
+      })
+    }
+
+    const OffCanvasComponent = () => {
+      const offCanvasLinks = document.querySelectorAll('.off-canvas__link')
+      let active = null
+
+      offCanvasLinks.forEach(link => {
+        if (link.classList.contains('off-canvas__link--active')) {
+          active = link
+        }
+
+        link.addEventListener('click', function (e) {
+          e.preventDefault()
+          if (active !== null) {
+            active.classList.remove('off-canvas__link--active')
+          }
+          active = this
+          this.classList.add('off-canvas__link--active')
+        })
+      })
+    }
+
+    const ModalComponent = () => {
+      const body = document.body
+      const toggleBtn = document.querySelector('.navbar__burger-btn')
+
+      toggleBtn.addEventListener('click', () => {
+        if (body.classList.contains('navbar--show')) {
+          body.classList.remove('navbar--show')
+        } else {
+          body.classList.add('navbar--show')
+        }
+      })
+    }
+
+    const StickyComponent = () => {
+      const headerCls = 'site__header'
+      const hideCls = `${headerCls}--hide`
+      const stickyCls = `${headerCls}--sticky`
+
+      const header = document.querySelector(`.${headerCls}`)
+      // const height = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--sizeHeader'))
+      const height = 10
+
+      // let lastPosY = 0
+
+      window.onscroll = () => {
+        const posY = window.pageYOffset
+        // const isMovingUp = posY <= lastPosY ? true : false
+        const isBelowHeader = posY > height ? true : false
+
+        if (isBelowHeader) {
+          header.classList.add(stickyCls)
+        } else {
+          header.classList.remove(stickyCls)
+        }
+
+        // if (!isMovingUp && isBelowHeader) {
+        //   header.classList.add(hideCls)
+        // } else {
+        //   header.classList.remove(hideCls)
+        // }
+
+        // lastPosY = posY
+      }
+    }
+
+    const BlinkComponent = () => {
+      const el = document.querySelector('.hero__subtitle--focus')
+      const keywords = [
+        'Digital Marketing',
+        'Facebook Advertising',
+        'Google Ads',
+        'Paid Media',
+        'Social Media Advertising',
+        'Online Presence',
+        'Brand Awareness'
+      ]
+      let char = 0
+      let keyword = keywords[char]
+      let status = 'write'
+      let content = ''
+
+      const updateText = () => {
+        const canWriteText = char < keyword.length
+        const canDeleteText = char > 0
+        const writeTimer = 50
+        const pauseTimer = 2500
+        const delayTimer = 'write' === status && !canWriteText ? pauseTimer : writeTimer
+
+        if ('write' === status) {
+          if (canWriteText) {
+            content += keyword.charAt(char)
+            char = char + 1
+          } else {
+            status = 'delete'
+          }
+        } else if ('delete' === status) {
+          if (canDeleteText) {
+            content = content.slice(0, -1)
+            char = char - 1
+          } else {
+            const next = keywords.indexOf(keyword) + 1;
+            keyword = next < keywords.length ? keywords[next] : keywords[0]
+            status = 'write'
+          }
+        }
+
+        if (delayTimer === pauseTimer) {
+          el.classList.add('underline--blink')
+        } else if (el.classList.contains('underline--blink')) {
+          el.classList.remove('underline--blink')
+        }
+
+        setTimeout(() => {
+          el.innerHTML = content
+          updateText()
+        }, delayTimer)
+      }
+
+      updateText()
+    }
+
+    (function () {
+      // TitleComponent()
+      StickyComponent()
+      ThemeComponent()
+      ModalComponent()
+      MenuComponent()
+      OffCanvasComponent()
+      BlinkComponent()
+      const glide = new Glide('.glide', {
+        type: 'carousel',
+        startAt: 0,
+        perView: 3
+      })
+      glide.mount()
+    })();
+  </script>
+</body>
+
+</html>
